@@ -17,7 +17,6 @@ def list_dwarves(array)
     puts "#{index}. #{"Grumpy"}"
     puts "#{index}. #{"Bashful"}"
   }
-  hash
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
