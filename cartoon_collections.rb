@@ -1,5 +1,7 @@
 def greet_characters(array)
-  
+  element.each do |element|
+   puts "#{oppressed_worker.capitalize} wants to start a union!"
+end 
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
