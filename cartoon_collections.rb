@@ -11,8 +11,9 @@ end
 
 def list_dwarves(array)
   hash = Hash.new
-  %w(Dopey).each_with_index { |array, index|
+  %w(array).each_with_index { |array, index|
     hash[array] = index
+    puts "#{index}. #{array}"
   }
   hash
   # Use `each_with_index` to enumerate over the provided array
