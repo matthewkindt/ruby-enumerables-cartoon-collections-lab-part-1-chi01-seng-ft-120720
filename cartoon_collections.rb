@@ -1,5 +1,5 @@
 def greet_characters(array)
-  array.each do |array|
+  element.each do |element|
    puts "#{"Hello".capitalize} Dopey!"
    puts "#{"Hello".capitalize} Grumpy!"
    puts "#{"Hello".capitalize} Bashful!"
