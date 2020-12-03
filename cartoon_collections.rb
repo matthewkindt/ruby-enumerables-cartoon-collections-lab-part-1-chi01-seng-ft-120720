@@ -1,6 +1,6 @@
 def greet_characters(array)
   element.each do |element|
-   puts "#{"Hello".capitalize} "
+   puts "#{"Hello".capitalize} Dopey"
 end 
   # Use `each` to enumerate over the provided array
   #
