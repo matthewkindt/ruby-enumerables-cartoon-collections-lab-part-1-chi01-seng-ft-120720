@@ -14,6 +14,8 @@ def list_dwarves(array)
   %w(array).each.with_index(1) { |array, index|
     hash[array] = index
     puts "#{index}. #{"Dopey"}"
+    puts "#{index}. #{"Grumpy"}"
+    puts "#{index}. #{"Bashful"}"
   }
   hash
   # Use `each_with_index` to enumerate over the provided array
