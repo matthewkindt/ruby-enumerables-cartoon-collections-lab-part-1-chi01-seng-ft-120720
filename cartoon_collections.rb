@@ -3,7 +3,6 @@ def greet_characters(array)
    puts "#{"Hello".capitalize} Dopey!"
    puts "#{"Hello".capitalize} Grumpy!"
    puts "#{"Hello".capitalize} Bashful!"
-   greet_characters(array)
 end 
   # Use `each` to enumerate over the provided array
   #
