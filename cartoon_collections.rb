@@ -9,9 +9,9 @@ def greet_characters(array)
 end
 end
 
-def list_dwarves(array)
-  array.each_with_index(1) do |array|
-    puts "#{index}. #{array}"
+def list_dwarves(dwarves)
+  dwarves.each_with_index(1) do |dwarves, index|
+    puts "#{index}. #{dwarves}"
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
