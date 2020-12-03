@@ -14,13 +14,11 @@ def list_dwarves(array)
   %w(array).each.with_index(1) { |array, index|
     hash[array] = index
     puts "#{index}. #{"Dopey"}"
-  end
-  hash = Hash.new
+  }
     %w(array).each.with_index(2) { |array, index|
     hash[array] = index
     puts "#{index}. #{"Grumpy"}"
-  end
-  hash = Hash.new
+    }
     %w(array).each.with_index(3) { |array, index|
     hash[array] = index
     puts "#{index}. #{"Bashful"}"
