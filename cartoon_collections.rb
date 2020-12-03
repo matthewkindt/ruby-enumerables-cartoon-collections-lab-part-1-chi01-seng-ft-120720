@@ -11,7 +11,7 @@ end
 
 def list_dwarves(array)
   hash = Hash.new
-  %w(array).each_with_index { |array, index|
+  %w(array).each.with_index(1) { |array, index|
     hash[array] = index
     puts "#{index}. #{"Dopey"}"
   }
